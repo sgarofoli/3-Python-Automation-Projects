@@ -17,7 +17,7 @@ def load_data(filepath):
             return data
     except:
         return {}
-
+def main():
 
 if len(sys.argv) == 2:
     command = sys.argv[1]
@@ -41,3 +41,5 @@ if len(sys.argv) == 2:
         print("Unknown command")
 else:
     print("Please pass exactly one command.")
+    
+main()
